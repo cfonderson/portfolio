@@ -20,5 +20,5 @@ A follow-up of the data analytics project on COVID-19 impact. This project inves
 Tags: `Web scraping` `ETL` `Regression` `Clustering`
 
 [The cost of medical insurance](https://github.com/cfonderson/portfolio/tree/main/Data%20Science/Insurance%20Premium%20Prediction) <br>
-Predicting the health insurance cost incurred by individuals based on their age, gender, BMI, number of childrem, smoking habits and location <br>
+Predicting the health insurance cost incurred by individuals based on their age, gender, BMI, number of children, smoking habits and location <br>
 Tags: `Regression` `Artificial Neural Networks` `Deep learning`
