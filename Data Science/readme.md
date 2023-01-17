@@ -1,4 +1,8 @@
 # Data Science Projects
+Data science projects that seek to solve/answer real-world problems and questions. 
+
+## Projects at a glance
+
 <ul>
   <li>Movie recommendation system (NLP, Classification, Clustering)</li>
   <li>Predicting customer churn in Telecom customers (Classification)</li>
