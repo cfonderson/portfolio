@@ -16,3 +16,4 @@ Have fun looking though these projects!
 ## Index
 [Data Analysis Projects](https://github.com/cfonderson/portfolio/tree/main/Data%20Analytics) <br>
 [Data Science Projects](https://github.com/cfonderson/portfolio/tree/main/Data%Science) <br>
+[Research Projects](https://github.com/cfonderson/portfolio/tree/main/Research)
