@@ -63,4 +63,5 @@ The custom queries for the monitor can be found [here](https://github.com/cfonde
 
 ## Dashboard
 The business monitors were built using Looker Studio and can be found [here](https://github.com/cfonderson/portfolio/blob/main/Data%20Analytics/Business%20Management%20DB/dashboard.pdf)
+
 ![dash page 1](https://github.com/cfonderson/portfolio/blob/main/Data%20Analytics/Business%20Management%20DB/img/dash.png)
