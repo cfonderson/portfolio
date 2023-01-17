@@ -15,7 +15,7 @@ The [dataset](https://www.kaggle.com/code/htester/exploratory-data-analysis/data
 
 ## Project Summary & Conclusions
 
-<u>Data Curation</u> <br>
+### Data Curation
 Following data ingestion and cleaning, the dataset contained 10 columns and ~1300 records
 
 |Variables|Description|
@@ -31,7 +31,7 @@ Following data ingestion and cleaning, the dataset contained 10 columns and ~130
 |`Generosity`|Score based on the citizen's perception of generosity|
 |`Happiness Rank`|The country's overall performance relative to other nations|
 
-<u>Data Exploration and Analysis</u> <br>
+### Data Exploration and Analysis
 To investigate differences in global happiness before and after the pandemic, I divided the dataset into two periods (pre: 2015 to 2018 and post: 2019 to 2022). Overall, no significant changes were observed in happiness ranking between both periods. 
 
 
@@ -39,3 +39,28 @@ Generally, developed countries, including the US, Canada, Australia and Scandina
 
 
 Interestingly, global happiness is highly correlated with a countrie's GDP, which in turn influences other factors considered, including life expectancy and generosity. Therefore, a bias likely exists in the way we as humans determine happiness on the global scale.
+
+### Regression and Clustering Analysis
+Following EDA, I evaluated the performace of five regression models in predicting a nation's happiness score based on its economy, and other factors. ___Results:___
+
+----------------------------------------------------------------------------------------------------
+model = LinearRegression()                      model = SVR()
+R^2 :  0.7709010071453656                       R^2 :  0.7947590307313542
+MAE : 0.3875523524898802                        MAE : 0.3629996403233455
+RMSE: 0.4832785262107067                        RMSE: 0.45742293568167985
+
+----------------------------------------------------------------------------------------------------
+model = DecisionTreeRegressor()                 model = RandomForestRegressor()
+R^2 :  0.6110117211405464                       R^2 :  0.7983764450023481
+MAE : 0.4927592699734896                        MAE : 0.35556381830924944
+RMSE: 0.6297296847242317                        RMSE: 0.4533739285893987
+
+--------------------------------------------------
+model = MLPRegressor()
+R^2 :  0.7644734512536411
+MAE : 0.3909143221129761
+RMSE: 0.49001101473795383
+
+Overall, the SVR and Random Forest models performed better than other regression models with prediction accuracies of ~80%. The Decision Tree Regressor performed poorly compared to other models with an accuracy of 61%.
+
+
