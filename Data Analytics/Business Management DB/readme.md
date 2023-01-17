@@ -59,7 +59,7 @@ Before creating the dashboards, I created SQL views of the data needed for the t
   </li>
 </ol>
 
-The custom queries for the monitor can be found [here]([https://user-images.githubusercontent.com/122840305/212807093-f4308d01-cf04-4072-847e-d458b8771654.png](https://github.com/cfonderson/portfolio/blob/main/Data%20Analytics/Business%20Management%20DB/dash_queries.sql)
+The custom queries for the monitor can be found [here](https://github.com/cfonderson/portfolio/blob/main/Data%20Analytics/Business%20Management%20DB/dash_queries.sql)
 
 ## Dashboard
 The business monitors were built using Looker Studio and can be found [here](https://github.com/cfonderson/portfolio/blob/main/Data%20Analytics/Business%20Management%20DB/dashboard.pdf)
