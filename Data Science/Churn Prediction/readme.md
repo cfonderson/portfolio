@@ -32,7 +32,8 @@ The dataset used in this project was curated from [Kaggle](), and the column des
 Following data quality check and feature engineering, I explored pertinent relationships in the dataset. For instance, the relationship between churn and day and night charges.
 
 
-![churn_charge](https://github.com/cfonderson/portfolio/blob/main/Data%20Science/Churn%20Prediction/img/churn_charge.png)
+![churn_day charge](https://github.com/cfonderson/portfolio/blob/main/Data%20Science/Churn%20Prediction/img/day.png)
+![churn_night charge](https://github.com/cfonderson/portfolio/blob/main/Data%20Science/Churn%20Prediction/img/night.png)
 
 __Insight:__ In general, customers who churned had higher daily charges than customers who were retained, but the attrition distribution was similar when comparing night charges
 
