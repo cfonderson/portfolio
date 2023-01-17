@@ -6,8 +6,8 @@ The goal of this project is to build a movie recommendation system, using latest
 ### Data collection:
 Movie ids an information were taken from GroupLens and used to scraped movie data from The Movie Database using an API. The scraped data contain information about a movies name, cast, crew, release year, adult rating, poster, revenue and runtime amongst others. Following data cleaning and feature engineering, the dataset had 18 fields descibed below:
 
-|Variable|Description|||Variable|Description|
-|:--------|:-----------|-|-|:--------|:-----------|
+|Variable|Description||Variable|Description|
+|:--------|:-----------|-|:--------|:-----------|
 |id|Movie ID in the TMDb||director|Movie director name|
 |year|Movie release year||producer|Movie producer(s) name|
 |title|Movie title in english||keywords|Movie's keywords|
