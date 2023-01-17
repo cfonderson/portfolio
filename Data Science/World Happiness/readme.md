@@ -33,15 +33,14 @@ Following data ingestion and cleaning, the dataset contained 10 columns and ~130
 
 ### Data Exploration and Analysis
 To investigate differences in global happiness before and after the pandemic, I divided the dataset into two periods (pre: 2015 to 2018 and post: 2019 to 2022). Overall, no significant changes were observed in happiness ranking between both periods. 
-
+[graph]()
 
 Generally, developed countries, including the US, Canada, Australia and Scandinavian countries (Norway, Findland) achieved the highest happiness scores across the globe. On the other hand, third wold countries, particularly African nations, are reportedly the least happy in the world. 
 
-
-Interestingly, global happiness is highly correlated with a countrie's GDP, which in turn influences other factors considered, including life expectancy and generosity. Therefore, a bias likely exists in the way we as humans determine happiness on the global scale.
-
 ### Regression and Clustering Analysis
-Following EDA, I evaluated the performace of five regression models in predicting a nation's happiness score based on its economy, and other factors. ___Results:___
+Following EDA, I evaluated the performace of five regression models in predicting a nation's happiness score based on its economy, and other factors <br>
+
+___Results:___
 
 |Model|Accuracy (%)|
 |-----|--------|
@@ -53,4 +52,5 @@ Following EDA, I evaluated the performace of five regression models in predictin
 
 Overall, the SVR and Random Forest models performed better than other regression models with prediction accuracies of ~80%. The Decision Tree Regressor performed poorly compared to other models with an accuracy of 61%.
 
-
+I also wanted to tease out the characteristics that separated "happy" countries from other nations of the world. Consequently, I conducted a clustering analysis on the dataset using the KMeans algorithm. Interestingly, I found that global happiness is highly correlated with a countrie's GDP, which in turn influences other factors considered, including life expectancy and generosity. Therefore, a bias likely exists in the way we as humans determine happiness on the global scale.
+[graph2]()
