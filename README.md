@@ -1,7 +1,7 @@
 # Cynthia's Data Portfolio
 
 ## Overview
-This repository contains a few data analysis and data science projects I completed in 2022 and 2023.
+This repository contains a few data analysis and data science projects I completed over the years.
 
 ## More About Cynthia!
 Hello, and welcome to my data portfolio! 
