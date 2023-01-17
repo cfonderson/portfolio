@@ -41,27 +41,23 @@ Before creating the dashboards, I created SQL views of the data needed for the t
     </ul>
     To gather the data required data, I joined the orders, item, and address tables, and selected the fields that needed to be displayed on the dashboard.
   </li>
-  <li>
+  <li>Inventory Management
+     <ul>
+      <li>Total quantity by ingredient</li>
+      <li>Total cost of ingredients</li>
+      <li>Calculated cost of each item</li>
+      <li>Percentage stock remaining by ingredient</li>
+      <li>List of ingredients to reorder based on remaining inventory</li>
+    </ul>
+    Two data sources were generated to monitor Ben’s inventory. The first contains the data required to calculate the cost of menu items and the used inventory, while the second holds the data required to determine which ingredients need to be reordered based on the remaining inventory.
   </li>
-  <li>
+  <li>Staff Management
+    <ul>
+      <li>Staff shifts</li>
+      <li>Staffing costs</li>
+    </ul>
   </li>
 </ol>
-
-
-2.	Inventory Management
- 
-•	Total quantity by ingredient
-•	Total cost of ingredients
-•	Calculated cost of each item
-•	Percentage stock remaining by ingredient
-•	List of ingredients to reorder based on remaining inventory
- 
-Two data sources were generated to monitor Ben’s inventory. The first contains the data required to calculate the cost of menu items and the used inventory, while the second holds the data required to determine which ingredients need to be reordered based on the remaining inventory.
-
-
-3.	Staff Management
-•	Staff shifts
-•	Staffing costs
 
 The custom queries for the monitor can be found [here]([https://user-images.githubusercontent.com/122840305/212807093-f4308d01-cf04-4072-847e-d458b8771654.png](https://github.com/cfonderson/portfolio/blob/main/Data%20Analytics/Business%20Management%20DB/dash_queries.sql))
 
