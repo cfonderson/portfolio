@@ -11,7 +11,7 @@ SELECT * FROM address;
 -- Orders by hour, address & service type
 
 SELECT 
-	o.order_id,
+    o.order_id,
     i.item_price,
     o.quantity,
     i.item_cat,
@@ -40,7 +40,7 @@ SELECT * FROM ingredient;
 -- Cost of each pizza = SUM(ingredient costs)
 
 SELECT 
-	s1.item_name,
+    s1.item_name,
     s1.ing_id,
     s1.ing_name,
     s1.ing_weight,
@@ -91,7 +91,7 @@ CREATE
     VIEW stock 
     AS 
     SELECT 
-		s1.item_name AS item_name,
+	s1.item_name AS item_name,
         s1.ing_id AS ing_id,
         s1.ing_name AS ing_name,
         s1.ing_weight AS ing_weight,
@@ -104,14 +104,14 @@ CREATE
 	FROM
 		(SELECT 
 			o.item_id AS item_id,
-            i.item_sku AS item_sku,
-            i.item_name AS item_name,
-            r.ing_id AS ing_id,
-            ing.ing_name AS ing_name,
-            r.quantity AS recipe_quantity,
-            SUM(o.quantity) AS order_quantity,
-            ing.ing_weight AS ing_weight,
-            ing.ing_price AS ing_price 
+            		i.item_sku AS item_sku,
+            		i.item_name AS item_name,
+            		r.ing_id AS ing_id,
+            		ing.ing_name AS ing_name,
+            		r.quantity AS recipe_quantity,
+            		SUM(o.quantity) AS order_quantity,
+            		ing.ing_weight AS ing_weight,
+            		ing.ing_price AS ing_price 
 		FROM (((orders o 
 			LEFT JOIN item i ON((o.item_id = i.item_id))) 
             LEFT JOIN recipe r ON((i.item_sku = r.item_sku))) 
@@ -130,7 +130,7 @@ CREATE
 -- inventory amount, and inventory remaining per ingredient
 
 SELECT
-	s2.ing_name,
+    s2.ing_name,
     s2.ordered_weight,
     ing.ing_weight,
     inv.quantity,
@@ -162,7 +162,7 @@ SELECT * FROM rotation;
 SELECT * FROM shift;
 
 SELECT
-	r.date,
+    r.date,
     st.staff_firstname,
     st.staff_lastname,
     st.hourly_rate,
