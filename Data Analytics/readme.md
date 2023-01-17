@@ -1,17 +1,19 @@
 # Data Analytics Projects
-
-
-Tools:
-Databases:
-Programming Languages:
+End-to-end data analytics projects that walk you through the data pipeline, i.e., data collection, data cleaning, transformation and storage, data analysis and data visualization and story telling.
 
 ## Projects at a glance
 
 ### Investigating the global impact of COVID-19 
 __Goal:__ 
-<u> </u>
+
 Tags: `Web scraping` `SQL` `Python` `Tableau`
 
-### Designing and building a relational database for business management (SQL, Python, Looker Studio)
+### Designing and building a relational database for business management
+__Goal:__ 
 
-### Investigating the sales performance of a bike company (SQL, Python, Microsoft Excel, Tableau)
+Tags: `Databse Design` `SQL` `Python` `Looker Studio`
+
+### Investigating the sales performance of a bike company 
+__Goal:__ 
+
+Tags: `SQL` `Python` `Microsoft Excel` `Tableau`
