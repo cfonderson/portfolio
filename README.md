@@ -14,5 +14,5 @@ Have fun looking though these projects!
 
 
 ## Table of Contents
-[Data Analysis Projects](Data Analytics)
-[Data Science Projects](Data Science)
+[Data Analysis Projects](https://github.com/cfonderson/portfolio/tree/main/Data%20Analytics)
+[Data Science Projects](https://github.com/cfonderson/portfolio/tree/main/Data%Science)
