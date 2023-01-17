@@ -33,9 +33,12 @@ Following data ingestion and cleaning, the dataset contained 10 columns and ~130
 
 ### Data Exploration and Analysis
 To investigate differences in global happiness before and after the pandemic, I divided the dataset into two periods (pre: 2015 to 2018 and post: 2019 to 2022). Overall, no significant changes were observed in happiness ranking between both periods. 
-[graph]()
+
+![rank trends](https://github.com/cfonderson/portfolio/blob/main/Data%20Science/World%20Happiness/img/rank_trends.png)
+![corr_mat](https://github.com/cfonderson/portfolio/blob/main/Data%20Science/World%20Happiness/img/corr_mat.png)
 
 Generally, developed countries, including the US, Canada, Australia and Scandinavian countries (Norway, Findland) achieved the highest happiness scores across the globe. On the other hand, third wold countries, particularly African nations, are reportedly the least happy in the world. 
+[picture]()
 
 ### Regression and Clustering Analysis
 Following EDA, I evaluated the performace of five regression models in predicting a nation's happiness score based on its economy, and other factors <br>
