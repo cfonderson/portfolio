@@ -30,6 +30,6 @@ Globally, I wanted to know the continents with the highest death counts, see the
 
 # Dashboard
 For this project, a simple, but interactive dashboard was built using [Tableau](https://public.tableau.com/views/COVIDDashboard_16725332651740/Dashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
-![Dashboard]()
+![Dashboard](https://github.com/cfonderson/portfolio/blob/main/Data%20Analytics/COVID%20Investigation/dashboard.png)
 
 
