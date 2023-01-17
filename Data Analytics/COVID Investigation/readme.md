@@ -7,14 +7,14 @@ This project sought to convey the global devastation brought about by the COVID-
 Preliminary ingestion of the collected data was done using pandas. The dataset was made of 242678 rows and 67 columns, and the fields were grouped into the following tables:
 
 <ol>
-  <li>`demographics` (e.g., population, country GDP, median age)</li>
-  <li>`cases` (e.g., total cases, new cases, new cases per million)</li>
-  <li>`deaths` (e.g., total deaths, new deaths, new deaths per million)</li>
-  <li>`tests` (e.g., total tests, positive test rates, tests per case)</li>
-  <li>`hospitalization` (e.g., number of patients, weekly admissions)</li>
-  <li>`vaccinations` (number of vaccinated people, total boosters)</li>
-  <li>`mortality risk factors` (e.g., smokers by gender, life expectancy)</li>
-  <li>`policy` (e.g., stringency index, handwashing facilities)</li>
+  <li>demographics (e.g., population, country GDP, median age)</li>
+  <li>cases (e.g., total cases, new cases, new cases per million)</li>
+  <li>deaths (e.g., total deaths, new deaths, new deaths per million)</li>
+  <li>tests (e.g., total tests, positive test rates, tests per case)</li>
+  <li>hospitalization (e.g., number of patients, weekly admissions)</li>
+  <li>vaccinations (number of vaccinated people, total boosters)</li>
+  <li>mortality risk factors (e.g., smokers by gender, life expectancy)</li>
+  <li>policy (e.g., stringency index, handwashing facilities)</li>
 </ol>
 
 These tables were imported into a MySQL database, for further exploratory data analysis. As a foreign-born citizen of Canada, I was particularly interested in comparing the effects the pandemic had on Africa and North America. Consequently, I built SQL queriesto determine:
