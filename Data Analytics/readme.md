@@ -3,8 +3,8 @@ End-to-end data analytics projects that walk you through the data pipeline, i.e.
 
 ## Projects at a glance
 
-### Investigating the global impact of COVID-19 
-__Goal:__ 
+### [Investigating the global impact of COVID-19]()
+__Goal:__ Use data collected from Our World in Data to explore the impact the COVID-19 pandemic had on the world at large. 
 
 Tags: `Web scraping` `SQL` `Python` `Tableau`
 
