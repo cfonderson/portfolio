@@ -24,7 +24,7 @@ I began EDA by looking at the distribution of the variables, which revealed most
 ## Clustering Analysis
 Prior to conducting the clustering analysis, I decided to reduce the dimensionality of the data using Principal Component Analysis. Unfortunately, this was unsuccessful, as the data was not linearly separable. Consequently, I proceeded to transform the data using a cosine function via Kernel PCA.
 
-![feature separation](https://github.com/cfonderson/portfolio/blob/main/Data%20Science/Customer%20Segmentation/img/featue_sep.png)
+![feature separation](https://github.com/cfonderson/portfolio/blob/main/Data%20Science/Customer%20Segmentation/img/feature_sep.png)
 
 The clustering analysis was done using the KMEans algorithm (no_clusters=5), using the Elbow method to determine the ideal number of clusters. Three customer clusters were found:
 
