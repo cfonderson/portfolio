@@ -30,6 +30,8 @@ The dataset used in this project was curated from [Kaggle](), and the column des
 |Churn|Customer retension metric (bool)|
 
 Following data quality check and feature engineering, I explored pertinent relationships in the dataset. For instance, the relationship between churn and day and night charges.
+
+
 ![churn_charge](https://github.com/cfonderson/portfolio/blob/main/Data%20Science/Churn%20Prediction/img/churn_charge.png)
 
 __Insight:__ In general, customers who churned had higher daily charges than customers who were retained, but the attrition distribution was similar when comparing night charges
@@ -45,7 +47,11 @@ Once I gained a deeper understanding of the dataset, I trained and evaluated fiv
 </ul>
 
 To visualize the performance of the five models trained in this project, I used ROC curves. The Random Forest and Naïve Bayes Classifiers outperformed the other algorithms in predicting customer churn, with accuracies of 90% and 82%, respectively.
+
+
 ![roc curve](https://github.com/cfonderson/portfolio/blob/main/Data%20Science/Churn%20Prediction/img/roc.png)
 
 Lastly, I tried to optimized the Random Forest Classifier by tuning its hyperparameters and increased its prediction accuracy to 99%. According to this model, the most important factors that influence customer attrition at this company are the charges paid, number of calls places to customer service, subscription to an international plan and services (minutes, calls) during the day.
+
+
 ![feature importance](https://github.com/cfonderson/portfolio/blob/main/Data%20Science/Churn%20Prediction/img/features.png)
