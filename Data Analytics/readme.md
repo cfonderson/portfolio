@@ -1,7 +1,7 @@
 # Data Analytics Projects
 End-to-end data analytics projects that walk you through the data pipeline, i.e., data collection, data cleaning, transformation and storage, data analysis and data visualization and story telling.
 
-![pipeline](img/data_pipeline.svg)
+![pipeline](./img/data_pipeline.svg)
 
 ## Projects at a glance
 [Investigating the global impact of COVID-19](https://github.com/cfonderson/portfolio/tree/main/Data%20Analytics/COVID%20Investigation) <br>
