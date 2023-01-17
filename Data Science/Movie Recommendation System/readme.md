@@ -20,4 +20,4 @@ Movie ids an information were taken from GroupLens and used to scraped movie dat
 |cast|Names of the first 5 cast members||vote_average|Movie's average score on TMDb|
 
 ## Optimization work flow
-![workflow]()
+![workflow](https://github.com/cfonderson/portfolio/blob/main/Data%20Science/Movie%20Recommendation%20System/workflow.png)
