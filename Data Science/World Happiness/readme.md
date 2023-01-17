@@ -38,7 +38,7 @@ To investigate differences in global happiness before and after the pandemic, I 
 ![corr_mat](https://github.com/cfonderson/portfolio/blob/main/Data%20Science/World%20Happiness/img/corr_mat.png)
 
 Generally, developed countries, including the US, Canada, Australia and Scandinavian countries (Norway, Findland) achieved the highest happiness scores across the globe. On the other hand, third wold countries, particularly African nations, are reportedly the least happy in the world. 
-[picture]()
+![happiness](https://github.com/cfonderson/portfolio/blob/main/Data%20Science/World%20Happiness/img/happiness.png)
 
 ### Regression and Clustering Analysis
 Following EDA, I evaluated the performace of five regression models in predicting a nation's happiness score based on its economy, and other factors <br>
@@ -49,11 +49,11 @@ ___Results:___
 |-----|--------|
 |LinearRegression|77.1|
 |SVR|79.5|
-|DecisionTreeRegressor|61.1|
-|RandomForestRegressor|79.8|
-|MLPRegressor|76.4|
+|DecisionTreeRegressor|54.6|
+|RandomForestRegressor|78.4|
+|MLPRegressor|72.2|
 
-Overall, the SVR and Random Forest models performed better than other regression models with prediction accuracies of ~80%. The Decision Tree Regressor performed poorly compared to other models with an accuracy of 61%.
+Overall, the SVR and Random Forest models performed better than other regression models with prediction accuracies of ~80%. The Decision Tree Regressor performed poorly compared to other models with an accuracy of ~55%.
 
 I also wanted to tease out the characteristics that separated "happy" countries from other nations of the world. Consequently, I conducted a clustering analysis on the dataset using the KMeans algorithm. Interestingly, I found that global happiness is highly correlated with a countrie's GDP, which in turn influences other factors considered, including life expectancy and generosity. Therefore, a bias likely exists in the way we as humans determine happiness on the global scale.
-[graph2]()
+![clusters](https://github.com/cfonderson/portfolio/blob/main/Data%20Science/World%20Happiness/img/clusters.png)
