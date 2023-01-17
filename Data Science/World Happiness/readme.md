@@ -43,23 +43,13 @@ Interestingly, global happiness is highly correlated with a countrie's GDP, whic
 ### Regression and Clustering Analysis
 Following EDA, I evaluated the performace of five regression models in predicting a nation's happiness score based on its economy, and other factors. ___Results:___
 
-----------------------------------------------------------------------------------------------------
-model = LinearRegression()                      model = SVR()
-R^2 :  0.7709010071453656                       R^2 :  0.7947590307313542
-MAE : 0.3875523524898802                        MAE : 0.3629996403233455
-RMSE: 0.4832785262107067                        RMSE: 0.45742293568167985
-
-----------------------------------------------------------------------------------------------------
-model = DecisionTreeRegressor()                 model = RandomForestRegressor()
-R^2 :  0.6110117211405464                       R^2 :  0.7983764450023481
-MAE : 0.4927592699734896                        MAE : 0.35556381830924944
-RMSE: 0.6297296847242317                        RMSE: 0.4533739285893987
-
---------------------------------------------------
-model = MLPRegressor()
-R^2 :  0.7644734512536411
-MAE : 0.3909143221129761
-RMSE: 0.49001101473795383
+|Model|Accuracy (%)|
+|-----|--------|
+|LinearRegression|77.1|
+|SVR|79.5|
+|DecisionTreeRegressor|61.1|
+|RandomForestRegressor|79.8|
+|MLPRegressor|76.4|
 
 Overall, the SVR and Random Forest models performed better than other regression models with prediction accuracies of ~80%. The Decision Tree Regressor performed poorly compared to other models with an accuracy of 61%.
 
