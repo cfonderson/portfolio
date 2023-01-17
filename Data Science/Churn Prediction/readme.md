@@ -4,7 +4,6 @@ Service providers across different industries use customer attrition analysis be
 
 ## Exploratory Data Analysis
 
-<u>The data</u> <br>
 The dataset used in this project was curated from [Kaggle](), and the column descriptions are as follows:
 |Name|Description|
 |:----|:-----------|
