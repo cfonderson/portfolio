@@ -1,5 +1,7 @@
 # Data Science Projects
 Data science projects that seek to solve/answer real-world problems and questions. 
+
+
 ![picture](https://github.com/cfonderson/portfolio/blob/main/Data%20Science/img/data_sci.png)
 
 ## Projects at a glance
