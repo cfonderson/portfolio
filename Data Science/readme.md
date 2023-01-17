@@ -1,14 +1,19 @@
 # Data Science Projects
 Data science projects that seek to solve/answer real-world problems and questions. 
+![picture]()
 
 ## Projects at a glance
+[Movie recommendation system]()
+Tags: `Web scraping` `NLP` `Classification` `Clustering`
 
-<ul>
-  <li>Movie recommendation system (NLP, Classification, Clustering)</li>
-  <li>Predicting customer churn in Telecom customers (Classification)</li>
-  <li>Customer segmentation of a grocery supplier (Clustering)</li>
-  <li>Investigating factors that affect world happiness (ETL, Regression, Clustering)</li>
-  <li>Predicting medical insurance premiums (Regression, Deep learning)</li>
-</ul>
+[Predicting customer churn in Telecom customers]() 
+Tags: `Classification`
 
-## Projects at a glance
+[Customer segmentation of a grocery supplier]() 
+Tags: `Clustering`
+
+[Investigating factors that affect world happiness]()
+Tags: `ETL` `Regression` `Clustering`
+
+[Predicting medical insurance premiums] 
+Tags: `Regression` `Artificial Neural Networks` `Deep learning`
