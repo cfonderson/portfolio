@@ -26,8 +26,6 @@ These tables were imported into a MySQL database, for further exploratory data a
 
 Globally, I wanted to know the continents with the highest death counts, see the advancement of the disease on a daily basis and the immunization efforts made by countries around the world. Following EDA, I also created preliminary visualizations within the jupyter notebook to give me an idea on dashboard design and execution, including choropleth maps and time series data (shown below). The full code for the EDA and preliminary data visualization [here](https://github.com/cfonderson/portfolio/blob/main/Data%20Analytics/COVID%20Investigation/covid.ipynb).
 
-[picture]
-
 # Dashboard
 For this project, a simple, but interactive dashboard was built using [Tableau](https://public.tableau.com/views/COVIDDashboard_16725332651740/Dashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 ![Dashboard](https://github.com/cfonderson/portfolio/blob/main/Data%20Analytics/COVID%20Investigation/dashboard.png)
