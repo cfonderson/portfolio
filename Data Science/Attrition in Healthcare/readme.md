@@ -18,7 +18,9 @@ To address these questions, I decided to train two machine learning models - an 
 The [dataset](https://www.kaggle.com/datasets/jpmiller/employee-attrition-for-healthcare) explored in this project was curated by Kaggle user JohnM contains 35 fields and 1676 employee records. It contains demographics information on healthcare workers, including their gender, marital status, distance from work amongst others. It also contains the each employees' compensation, ratings of different aspects of their working environment.
 
 ### Conclusions: Clustering Analysis
-In general, employees who tend to leave the hospital are younger (average age = 30 years old), entry-level personel that have not been working for a long time (with the hospital or elsewhere). Interestingly, overtime did not play a huge role in attrition, as the distribution of personel across the cluster is evenly split for this feature
+![clusters](https://github.com/cfonderson/Portfolio/blob/main/Data%20Science/Attrition%20in%20Healthcare/img/clusters.png)
+In general, employees who tend to leave their workplace (cluster 2) are younger (average age = 30 years old), entry-level personel that have not been working for a long time (with the hospital or elsewhere). Interestingly, overtime did not play a huge role in attrition, as the distribution of personel across the cluster is evenly split for this feature
 
 ### Conclusions: Employee Attrition Prediction
+![classificaton](https://github.com/cfonderson/Portfolio/blob/main/Data%20Science/Attrition%20in%20Healthcare/img/confusion_matrix.png)
 Two regression models were trained and evaluated in this project - a Logistic Regression Classifier and an XGBoost classifier. Overall, both classifiers performed well, with high accuracy scores (~90%). Nevertheless, the XGBoost model had better recall than the Logistic regression model, making it the recommended option for this analysis.
