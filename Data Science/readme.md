@@ -25,6 +25,6 @@ Tags: `Web scraping` `ETL` `Regression` `Clustering`
 Predicting the health insurance cost incurred by individuals based on their age, gender, BMI, number of children, smoking habits and location <br>
 Tags: `Regression` `Artificial Neural Networks` `Deep learning`
 
-[Employee attrition in healthcare](https://github.com/cfonderson/portfolio/tree/main/Data%20Science/Attrition%in%Healthcare) <br>
+[Employee attrition in healthcare](https://github.com/cfonderson/Portfolio/tree/main/Data%20Science/Attrition%20in%20Healthcare) <br>
 Investigating factors that affect employee attrition in health personel and preemtively predicting attrition before it occurs <br>
 Tags: `Web scraping` `Classification` `Clustering`
