@@ -14,7 +14,7 @@ The goal of this project was to tackle employee attrition in the healthcare sect
 
 To address these questions, I decided to train two machine learning models - an unsupervised model (clustering) to gain insight into different classes of attrited employes and a supervised model (classification) to predict employee attrition.
 
-<ins>The data:</ins> <br>
+<ins>The data</ins> <br>
 The [dataset](https://www.kaggle.com/datasets/jpmiller/employee-attrition-for-healthcare) explored in this project was curated by Kaggle user JohnM contains 35 fields and 1676 employee records. It contains demographics information on healthcare workers, including their gender, marital status, distance from work amongst others. It also contains the each employees' compensation, ratings of different aspects of their working environment.
 
 ### Conclusions: Clustering Analysis
