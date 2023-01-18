@@ -1,6 +1,6 @@
-# Prediciting Attrition in Healthcare Workers
+# Predicting Attrition in Healthcare Workers
 
-Hiring and training employees is an expensive process that requires capital, time and skills. On average, companies lost 1 - 2.5% of their total revenue on the time it takes to bring a new hire up to speed. Furthermore, companies spend 15 - 20% of the an employee's salary to recruit a new candidate. Therefore, it might be beneficial for companies to predict which employees are likely to quit based on certain factors and take preemtive measures if possible.
+Hiring and training employees is an expensive process that requires capital, time and skills. On average, companies lose 1 - 2.5% of their total revenue on the time it takes to bring a new hire up to speed. Furthermore, companies spend 15 - 20% of the an employee's salary to recruit a new candidate. Therefore, it might be beneficial for companies to predict which employees are likely to quit based on certain factors and take preemtive measures if possible.
 
 [Learn more about the cost of losing employees here](https://www.peoplekeep.com/blog/employee-retention-the-real-cost-of-losing-an-employee)
 
