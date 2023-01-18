@@ -24,3 +24,7 @@ Tags: `Web scraping` `ETL` `Regression` `Clustering`
 [The cost of medical insurance](https://github.com/cfonderson/portfolio/tree/main/Data%20Science/Insurance%20Premium%20Prediction) <br>
 Predicting the health insurance cost incurred by individuals based on their age, gender, BMI, number of children, smoking habits and location <br>
 Tags: `Regression` `Artificial Neural Networks` `Deep learning`
+
+[Employee attrition in healthcare](https://github.com/cfonderson/portfolio/tree/main/Data%20Science/Attrition%in%Healthcare) <br>
+Investigating factors that affect employee attrition in health personel and preemtively predicting attrition before it occurs <br>
+Tags: `Web scraping` `Classification` `Clustering`
