@@ -26,7 +26,7 @@ Prior to conducting the clustering analysis, I decided to reduce the dimensional
 
 ![feature separation](https://github.com/cfonderson/portfolio/blob/main/Data%20Science/Customer%20Segmentation/img/feature_sep.png)
 
-The clustering analysis was done using the KMEans algorithm (no_clusters=5), using the Elbow method to determine the ideal number of clusters. Three customer clusters were found:
+The clustering analysis was done using the KMEans algorithm (no_clusters=3), using the Elbow method to determine the ideal number of clusters. Three customer clusters were found:
 
 Cluster 0: Customers with high spending power, who buy grocery, milk and detergent from this store
 Cluster 1: Customers that buy items from all categories, but mostly spend money on fresh food. Consumers in this cluster have the lowest spending power of all clusters
