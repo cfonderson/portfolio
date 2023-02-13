@@ -15,6 +15,6 @@ Have fun looking though these projects!
 
 ## Index
 [Data Analysis Projects](https://github.com/cfonderson/portfolio/tree/main/Data%20Analytics) <br>
-[Data Science Projects](https://github.com/cfonderson/portfolio/tree/main/Data%Science) <br>
+[Data Science Projects](https://github.com/cfonderson/portfolio/tree/main/Data%20Science) <br>
 [Research Projects](https://github.com/cfonderson/portfolio/tree/main/Research) <br>
 [DS4A Capstone Project](https://github.com/cfonderson/portfolio/tree/main/DS4A%20Capstone)
