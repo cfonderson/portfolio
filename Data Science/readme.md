@@ -7,7 +7,7 @@ Data science projects that seek to solve/answer real-world problems and question
 ## Projects at a glance
 [Financial Fraud Prediction](https://github.com/cfonderson/portfolio/tree/main/Data%20Science/Financial%20Fraud%20Detection)<br>
 Building a data solution towards the identification and prediction of fraudulent financial transactions at a credit card company. This project leverages the application of clustering and classification techniques to deal with imbalanced data including t-SNE, PCA, Support Vector and Decision Tree Classifiers. <br>
-Tags: `Finance` `Clustering` `Classification` ``
+Tags: `Finance` `Clustering` `Classification` 
 
 [Risk Analytics](https://github.com/cfonderson/portfolio/tree/main/Data%20Science/Financial%20Risk%20Analysis)<br>
 Leveraging data analytics and machine learning to predict financial risk within a financial organization. <br>
