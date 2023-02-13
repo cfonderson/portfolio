@@ -5,6 +5,14 @@ Data science projects that seek to solve/answer real-world problems and question
 ![picture](https://github.com/cfonderson/portfolio/blob/main/Data%20Science/img/data_sci.png)
 
 ## Projects at a glance
+[Financial Fraud Prediction](https://github.com/cfonderson/portfolio/tree/main/Data%20Science/Financial%20Fraud%20Detection)<br>
+Building a data solution towards the identification and prediction of fraudulent financial transactions at a credit card company. This project leverages the application of clustering and classification techniques to deal with imbalanced data including t-SNE, PCA, Support Vector and Decision Tree Classifiers. <br>
+Tags: `Finance` `Clustering` `Classification` ``
+
+[Risk Analytics](https://github.com/cfonderson/portfolio/tree/main/Data%20Science/Financial%20Risk%20Analysis)<br>
+Leveraging data analytics and machine learning to predict financial risk within a financial organization. <br>
+Tags: `Finance` `Classification` `Neural Networks`
+
 [Movie recommendation system](https://github.com/cfonderson/portfolio/tree/main/Data%20Science/Movie%20Recommendation%20System) <br>
 Building a movie recommendation system using latest data scraped from GroupLens and The Movie Database. This system is optimized to make recommendations based on movies' content and weighted rating. The algorithm also applies a collaborative filter based on community ratings to suggest movies based on a selected user's preferences <br>
 Tags: `Web scraping` `NLP` `Classification` `Clustering`
