@@ -14,3 +14,4 @@ For this project, classification algorithms were trained and tested to predict f
 
 ## Results
 The Support Vector Classifier outperformed others with an ROC AUC Score of 0.80 and a precision score of 0.91. Thus, it was subsequently used to analyze financial risk in new (i.e., untrained data).
+
