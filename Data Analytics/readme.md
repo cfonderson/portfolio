@@ -23,4 +23,4 @@ Tags: `SQL` `Python` `Microsoft Excel` `Tableau`
 
 [Your Guide to Micromobility in YYC](https://github.com/cfonderson/portfolio/tree/main/Data%20Analytics/E-Cycling%20in%20YYC)<br>
 Analyzing the popularity of the micromobility pilot in Calgary, AB <br>
-Tags: `Python`, `App`, `Plotly`, `Dash`, `Data Viz`
+Tags: `Python` `App` `Plotly` `Dash` `Data Viz`
