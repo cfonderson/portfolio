@@ -19,3 +19,8 @@ Tags: `Databse Design` `SQL` `Python` `Looker Studio`
 [Investigating the sales performance of a bike company](https://github.com/cfonderson/portfolio/tree/main/Data%20Analytics/Bike%20X%20Sales)<br>
 Evaluate the sales performance of stores and sales personel of a bicycle company <br>
 Tags: `SQL` `Python` `Microsoft Excel` `Tableau`
+
+
+[](https://github.com/cfonderson/portfolio/tree/main/Data%20Analytics/E-Cycling%20in%20YYC)<br>
+Analyzing the popularity of the micromobility pilot in Calgary, AB <br>
+Tags: `Python`, `App`, `Plotly`, `Dash`, `Data Viz`
